@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+   }
+   table { border-collapse: collapse; border-spacing: 0; }
+   td, th, caption { font-weight: normal; text-align: left; }
+   img, fieldset { border: 0; }
+   ol { padding-left: 1.4em; list-style: decimal; }
+   ul { padding-left: 1.4em; list-style:square; }
+   q:before, q:after { content:''; }
+
+/*Fin del reseteo de css*/
+
+.color1 {    
+    background: #acb6e5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.titulo {
+    font: bold 25px Verdana;
+}
+
+.icono {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px auto;
+}
+
+figure {
+    float: left;
+}
+
+.redsocial {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+
+#descripcion {
+    resize: none;
+}
+
+p {
+    text-align: justify;
+}
